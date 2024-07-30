@@ -68,13 +68,6 @@ h6 {
 }
 
 /* styles */
-:root {
-  --green: #596D48;
-  --border-light: #E5E7EB;
-  --border-red: red;
-  --border-blue: blue;
-}
-
 
 
 .roboto-thin {
@@ -147,4 +140,79 @@ h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+@font-face {
+  font-family: norse;
+  src: url(/fonts/Norse-Bold.otf);
+}
+
+:root {
+  --green: #596D48;
+  --border-light: #E5E7EB;
+  --border-red: red;
+  --border-blue: blue;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.container {
+  display: flex;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.image {
+  background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.669);
+  max-height: 300px;
+  min-width: 100%;
+  margin-bottom: 500px;
+}
+
+.odin {
+  font-family: norse;
+  color: white;
+  font-size: 160px;
+}
+
+.img {
+  max-width: 160px;
+}
+
+.the-form {
+
+  padding-top: 200px;
+
+}
+
+.texts {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mar-top {
+  margin-top: 32px;
+}
+
+.form {
+  margin-top: 100px;
+  background-color: white;
+  padding: 40px 100px;
 }
