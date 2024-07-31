@@ -28,8 +28,56 @@
         </h2>
         <h2 class="mar-top texts">You know tou want to.</h2>
         <form class="form" action="">
-          <h2>Let's do this!</h2>
+          <div class="inside-form">
+            <h2>Let's do this!</h2>
+
+            <section class="flex sections">
+              <div class="inputs">
+                <label for="name">FIRST NAME</label>
+                <input type="text" name="name" id="name" class="input" />
+              </div>
+              <div class="inputs">
+                <label for="last">LAST NAME</label>
+                <input type="text" name="last" id="last" class="input" />
+              </div>
+            </section>
+            <section class="flex sections">
+              <div class="inputs">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" class="input" />
+              </div>
+              <div class="inputs">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="text" name="phone" id="phone" class="input" />
+              </div>
+            </section>
+            <section class="flex sections">
+              <div class="inputs">
+                <label for="password">PASSWORD</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="input"
+                />
+              </div>
+              <div class="inputs">
+                <label for="password-c">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="password-c"
+                  id="password-c"
+                  class="input"
+                />
+              </div>
+            </section>
+          </div>
+          <input type="submit" value="Create Account" />
         </form>
+        <div class="texts">
+          <span>Already have an account?</span>
+          <a href="#">log in</a>
+        </div>
       </div>
     </div>
   </body>

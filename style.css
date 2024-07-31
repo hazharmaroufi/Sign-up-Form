@@ -211,8 +211,29 @@ body {
   margin-top: 32px;
 }
 
-.form {
+.inside-form {
   margin-top: 100px;
   background-color: white;
   padding: 40px 100px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+.sections {}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+}
+
+.input {
+  min-width: 250px;
+  border-radius: 4px;
+  border: 1px solid var(--border-light);
 }
