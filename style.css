@@ -144,7 +144,7 @@ h6 {
 
 @font-face {
   font-family: norse;
-  src: url(/fonts/Norse-Bold.otf);
+  src: url(./fonts/Norse-Bold.otf);
 }
 
 :root {
